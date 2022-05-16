@@ -36,7 +36,7 @@
 	</header>
 	<aside class="side-bar">
 		<div class="title">
-			<img src="/images/dashboard.svg" alt="logo dashboard">
+			<img class="dashboard-img" src="/images/dashboard.svg" alt="logo dashboard">
 			<span>Dashboard</span>
 		</div>
 		<div class="sidebar-main">
@@ -62,7 +62,7 @@
 			</div>
 			<div class="item">
 				<img src="/images/account-group.svg" alt="logo communities">
-				<span>communities</span>
+				<span>Communities</span>
 			</div>
 		</div>
 		<div class="sidebar-cfg">
@@ -76,17 +76,20 @@
 			</div>
 			<div class="item">
 				<img src="/images/privacy.svg" alt="logo privacy">
-				<span>Logo Privacy</span>
+				<span>Privacy</span>
 			</div>
 		</div>
 	</aside>
 	<main class="main-content">
-		<h3>Your Projects</h3>
-		<div class="cards">
+		<div class="project-div" >
+		<h4>Your Projects</h4>
+		<div class="project-cards" >
 			<div class="card">
-				<span>Supper Cool Project</span>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo blanditiis ex cupsiditate, odit autem natus?
-				</p>
+				<div>
+					<span>Supper Cool Project</span>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo blanditiis ex cupsiditate, odit autem natus?
+					</p>
+				</div>
 				<div class="icons-card">
 					<img src="/images/star-plus-outline.svg" alt="star icon">
 					<img src="/images/eye-plus-outline.svg" alt="watch icon">
@@ -94,9 +97,11 @@
 				</div>
 			</div>
 			<div class="card">
-				<span>Less Cool Project</span>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores a, adipisci exercitationem quod dolores
-					dolore sed praesentium et iusto, ipsa hic neque, tempore impedit porro.</p>
+				<div>
+					<span>Less Cool Project</span>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores a, adipisci exercitationem quod dolores
+						dolore sed praesentium et iusto, ipsa hic neque, tempore impedit porro.</p>
+				</div>
 				<div class="icons-card">
 					<img src="/images/star-plus-outline.svg" alt="star icon">
 					<img src="/images/eye-plus-outline.svg" alt="watch icon">
@@ -104,8 +109,10 @@
 				</div>
 			</div>
 			<div class="card">
-				<span>Impossible App</span>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, labore.</p>
+				<div>
+					<span>Impossible App</span>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, labore.</p>
+				</div>
 				<div class="icons-card">
 					<img src="/images/star-plus-outline.svg" alt="star icon">
 					<img src="/images/eye-plus-outline.svg" alt="watch icon">
@@ -113,9 +120,11 @@
 				</div>
 			</div>
 			<div class="card">
-				<span>Easy Peasy App</span>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, ut adipisci atque minima incidunt
-					officiis unde deleniti odit natus nostrum? Laborum nihil eaque similique ut.</p>
+				<div>
+					<span>Easy Peasy App</span>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, ut adipisci atque minima incidunt
+						officiis unde deleniti odit natus nostrum? Laborum nihil eaque similique ut.</p>
+				</div>
 				<div class="icons-card">
 					<img src="/images/star-plus-outline.svg" alt="star icon">
 					<img src="/images/eye-plus-outline.svg" alt="watch icon">
@@ -123,10 +132,12 @@
 				</div>
 			</div>
 			<div class="card">
-				<span>Ad Blocker</span>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sequi vitae, et inventore consequuntur magni
-					architecto nobis eius quos ipsum, assumenda, voluptatibus nulla fuga excepturi saepe. Omnis laborum quidem
-					soluta.</p>
+				<div>
+					<span>Ad Blocker</span>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sequi vitae, et inventore consequuntur magni
+						architecto nobis eius quos ipsum, assumenda, voluptatibus nulla fuga excepturi saepe. Omnis laborum quidem
+						soluta.</p>
+				</div>
 				<div class="icons-card">
 					<img src="/images/star-plus-outline.svg" alt="star icon">
 					<img src="/images/eye-plus-outline.svg" alt="watch icon">
@@ -134,10 +145,12 @@
 				</div>
 			</div>
 			<div class="card">
-				<span>Money Maker</span>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam nam recusandae iure magnam sequi, tempora
-					omnis, earum optio odio architecto maiores placeat cumque enim quis at soluta quibusdam consequuntur aliquid
-					repudiandae. Ullam neque sapiente velit?</p>
+				<div>
+					<span>Money Maker</span>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam nam recusandae iure magnam sequi,
+						tempora omnis, earum optio odio architecto maiores placeat cumque enim quis at soluta quibusdam consequuntur
+						aliquidrepudiandae. Ullam neque sapiente velit?</p>
+				</div>
 				<div class="icons-card">
 					<img src="/images/star-plus-outline.svg" alt="star icon">
 					<img src="/images/eye-plus-outline.svg" alt="watch icon">
@@ -145,8 +158,10 @@
 				</div>
 			</div>
 		</div>
-		<h3>Annoucements</h3>
-		<div>
+	</div>
+		<div class="rightPart-mainContent">
+		<div class="announcements-div">
+			<h4>Announcements</h4>
 			<div class="announcements-card">
 				<div>
 					<span>Site Maintance</span>
@@ -163,32 +178,47 @@
 				<div>
 					<span>Updated Privacy Policy</span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque illum consectetur error nemo laudantium
-						voluptate omnis eveniet ducimus esse officia voluptas minima, facilis adipisci ullam?</p>					
-				</div>
-			</div>
-			<h3>Trending</h3>
-			<div class="trending-card">
-				<div class="item">
-					<img src="" alt="">
-					<span>@tegan</span>
-					<p>World Peace Builder</p>
-				</div>
-				<div class="item"><img src="" alt="">
-					<span>@morgan</span>
-					<p>Super Cool Project</p>
-				</div>
-				<div class="item">
-					<img src="" alt="">
-					<span>@kendall</span>
-					<p>Life Changing App</p>
-				</div>
-				<div class="item">
-					<img src="" alt="">
-					<span>@alex</span>
-					<p>No Traffic Maker</p>
+						voluptate omnis eveniet ducimus esse officia voluptas minima, facilis adipisci ullam?</p>
 				</div>
 			</div>
 		</div>
+
+		<div class="trending-div" >
+			<h4>Trending</h4>
+			<div class="trending-card">
+				<div class="item2">
+					<img src="/images/avatar2.png" alt="">
+					<div>
+						<span>@tegan</span>
+						<p>World Peace Builder</p>
+					</div>
+				</div>
+				<div class="item2">
+					<img src="/images/avatar1.png" alt="">
+					<div>
+						<span>@morgan</span>
+						<p>Super Cool Project</p>
+					</div>
+				</div>
+				<div class="item2">
+					<img src="/images/avatar3.png" alt="">
+					<div>
+						<span>@kendall</span>
+						<p>Life Changing App</p>
+					</div>
+
+				</div>
+				<div class="item2">
+					<img src="/images/avatar4.png" alt="">
+					<div>
+						<span>@alex</span>
+						<p>No Traffic Maker</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		
 	</main>
 
 </body>
